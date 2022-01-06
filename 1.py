@@ -21,5 +21,5 @@ def a():
     html = fig.to_html(include_plotlyjs="require", full_html=False )
     put_html(html)
 
-pywebio.start_server(a,port=80)
+pywebio.start_server(a)
 
