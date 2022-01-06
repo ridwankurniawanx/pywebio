@@ -15,7 +15,7 @@ def a():
     fig = go.Figure(data=[go.Surface(z=z_data.values) ])
 
     fig.update_layout(template="plotly_dark",title='Mt Bruno Elevation', autosize=True,
-                    width=720, height=720,
+                    width=400, height=400,
                     margin=dict(l=65, r=50, b=65, t=90))
 
     html = fig.to_html(include_plotlyjs="require", full_html=False )
